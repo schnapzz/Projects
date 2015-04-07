@@ -14,12 +14,21 @@
 @interface Controller()
 
 @property PersonManager* pManager;
-@property id controller;
 
 @end
 
 
 @implementation Controller
+
+static Controller* instance = nil;
+
++ (void)initialize { // Figure why this is wrong!
+    
+    if (instance == nil) {
+        
+        instance = [[self alloc] init];
+    }
+}
 
 - (instancetype)init {
     

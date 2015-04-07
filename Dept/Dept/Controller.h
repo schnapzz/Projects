@@ -10,6 +10,8 @@
 
 @interface Controller : NSObject
 
++ (void)initialize;
+
 - (void)createPersonWith:(NSString*)name and:(double)rented;
 
 @end
