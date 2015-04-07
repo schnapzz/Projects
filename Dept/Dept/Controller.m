@@ -32,7 +32,13 @@
 
 - (void)createPersonWith:(NSString *)name and:(double)rented {
     
-    
+    if ([self.pManager isPersonExisting:name]) {
+        
+        // Do something
+    } else {
+        
+        [self.pManager createPersonWithName:name andInitialDept:rented];
+    }
 }
 
 /* Load and save */

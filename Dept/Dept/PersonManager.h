@@ -10,6 +10,7 @@
 
 @interface PersonManager : NSObject <NSCoding>
 
+- (BOOL)isPersonExisting:(NSString*)name;
 - (void)createPersonWithName:(NSString*)name andInitialDept:(double)initDept;
 
 @end

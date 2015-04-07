@@ -44,7 +44,17 @@
 }
 
 
-
+- (BOOL)isPersonExisting:(NSString *)name {
+    
+    for (Person* person in self.persons) {
+        
+        if ([person.name isEqualToString:name]) {
+            
+            return true;
+        }
+    }
+    return false;
+}
 
 
 /* Private Methods */
