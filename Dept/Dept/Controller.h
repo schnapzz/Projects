@@ -10,7 +10,7 @@
 
 @interface Controller : NSObject
 
-+ (void)initialize;
++ (Controller*)sharedController;
 
 - (void)createPersonWith:(NSString*)name and:(double)rented;
 

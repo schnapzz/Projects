@@ -41,6 +41,8 @@
     
     // Adds the new person to the list of persons
     [self.persons addObject:person];
+    
+    NSLog(@"Person with name: %@ created and new number of known persons %d",name, self.persons.count);
 }
 
 

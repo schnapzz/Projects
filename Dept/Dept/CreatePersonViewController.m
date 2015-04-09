@@ -8,7 +8,7 @@
 
 #import "CreatePersonViewController.h"
 #import "Controller.h"
-
+#import "NSString+Checks.h"
 
 @interface CreatePersonViewController ()
 
@@ -24,8 +24,28 @@
 
 - (void)createAction {
     
+    NSString* name = self.nameField.text;
+    double rented = [self.rentField.text doubleValue];
+    
+    [[Controller sharedController] createPersonWith:name and:rented];
+}
+
+/* Private methods */
+
+- (BOOL)isValidText:(NSString*)text {
+    
+    if ([text isNonEmpty]) {
+        
+        
+    }
+    
+    
     
 }
 
+- (BOOL)isValidNumber:(NSString*)text {
+    
+    
+}
 
 @end

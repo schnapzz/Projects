@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		16211A501ACDAEE200C96065 /* PersonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16211A4F1ACDAEE200C96065 /* PersonManager.m */; };
+		16CE50D11AD727A80036E697 /* NSString+Checks.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CE50D01AD727A80036E697 /* NSString+Checks.m */; };
 		16F8C2C41AC9E77400889629 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C2C31AC9E77400889629 /* main.m */; };
 		16F8C2C71AC9E77400889629 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C2C61AC9E77400889629 /* AppDelegate.m */; };
 		16F8C2CA1AC9E77400889629 /* CreatePersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C2C91AC9E77400889629 /* CreatePersonViewController.m */; };
@@ -34,6 +35,8 @@
 /* Begin PBXFileReference section */
 		16211A4E1ACDAEE200C96065 /* PersonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonManager.h; sourceTree = "<group>"; };
 		16211A4F1ACDAEE200C96065 /* PersonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonManager.m; sourceTree = "<group>"; };
+		16CE50CF1AD727A80036E697 /* NSString+Checks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Checks.h"; sourceTree = "<group>"; };
+		16CE50D01AD727A80036E697 /* NSString+Checks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Checks.m"; sourceTree = "<group>"; };
 		16F8C2BE1AC9E77400889629 /* Dept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dept.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F8C2C21AC9E77400889629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F8C2C31AC9E77400889629 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				16F8C2C61AC9E77400889629 /* AppDelegate.m */,
 				16F8C2F71AC9EEE500889629 /* Controller.h */,
 				16F8C2F81AC9EEE500889629 /* Controller.m */,
+				16CE50CF1AD727A80036E697 /* NSString+Checks.h */,
+				16CE50D01AD727A80036E697 /* NSString+Checks.m */,
 				16F8C2EB1AC9E7FB00889629 /* Model */,
 				16F8C2EA1AC9E7EC00889629 /* Views */,
 				16F8C2CE1AC9E77400889629 /* Main.storyboard */,
@@ -261,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F8C2CD1AC9E77400889629 /* SecondViewController.m in Sources */,
+				16CE50D11AD727A80036E697 /* NSString+Checks.m in Sources */,
 				16F8C2C71AC9E77400889629 /* AppDelegate.m in Sources */,
 				16F8C2F61AC9E99B00889629 /* Dept.m in Sources */,
 				16F8C2F31AC9E8FF00889629 /* Person.m in Sources */,

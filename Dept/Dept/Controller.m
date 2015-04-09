@@ -22,12 +22,14 @@
 
 static Controller* instance = nil;
 
-+ (void)initialize { // Figure why this is wrong!
++ (Controller*)sharedController { // Figure why this is wrong!
     
     if (instance == nil) {
         
         instance = [[self alloc] init];
     }
+    
+    return instance;
 }
 
 - (instancetype)init {
